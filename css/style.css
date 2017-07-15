@@ -1,0 +1,628 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: "微软雅黑";
+}
+html{
+	width: 100%;
+}
+body{
+	width: 100%;
+	height: auto;
+	
+
+}
+a{
+	text-decoration: none;
+}
+h1{
+	font-size: 79px;
+	margin-top: 40px;
+	margin-left: 20px;
+	color:#707070;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	font-style:oblique;
+}
+h4{
+	text-align: center;
+	font-size: 20px;
+	color: #f18193;
+}
+h3{
+	
+	font-size: 20px;
+	color: #f18193;
+}
+#mainbody{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	min-width: 1300px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+/*banner*/
+#banner{
+	width: 100%;
+	min-width: 1200px;
+	height: 500px;
+	background-color: #e5e5e5;
+	top: 0px;
+
+}
+#text{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 0px;
+
+}
+#banner>img{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 0px;
+
+}
+
+
+#four_part{
+	position: relative;
+	margin: 0 auto;
+	width:71%;
+	height: 120px;
+	padding-top: 340px;
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+	z-index: 999;
+
+
+
+}
+.part{
+	border: 1px solid #fff;
+	height: 120px;
+	flex:1 1 auto;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 120px;
+	font-size: 25px;
+
+
+}
+.part>a{
+	display: block;
+	width: 227px;
+	height: 122px;
+	margin: 0 auto;
+	color:#707070;}
+
+.notice{
+	width: 840px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 50px;
+	
+	position: relative;
+
+}
+.notice-tit{
+	width: 760px;
+	height: 50px;
+	margin: 0 auto;
+	
+	position: relative;
+	font-size: 25px;
+}
+.notice-tit>ul{
+
+	position: absolute;
+	width: 761px;
+	left: -1px;
+
+}
+.notice-tit>ul>li{
+	float: left;
+	width: 253.3px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+
+
+}
+.notice-tit a{
+	font-size: 30px;
+	color: #707070;
+}
+.notice-tit li a:hover{
+	width: 253.3px;
+	color:red;
+
+}
+#third-delta{
+	width: 760px;
+	height: 20px;
+	position: relative;
+	margin:0 auto;
+}
+.delta{
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	top: 0px;
+	left: 110px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid #e5e5e5;
+	display: none;
+
+	
+}
+#delta1{
+	display:block;
+}
+#delta2{
+	left: 365px;
+	border-bottom: 20px solid #2ac0f8;
+	
+}
+#delta3{
+	left: 630px;
+
+}
+.select{
+	display: block;
+}
+
+
+#notice-con{
+	width: 742px;
+	height: 472px;
+	
+	
+	position: relative;
+	margin: 0 auto;
+
+}
+.con{
+	width: 740px;
+	height: 470px;
+	position: relative;
+	margin: 0 auto;
+
+	
+
+}
+#con3{
+	display: none;
+}
+#con2{
+	display: none;
+}
+
+#photo1{
+	width: 740px;
+	height: 240px;
+	position: absolute;
+	top: 0px;
+    left: 0px;
+    background-color: #fff;
+  border-radius: 5px;
+    background: url('../images/photo1.png')  no-repeat;
+  background-position: bottom center;
+  background-size: 103% ;
+}
+#photo2{
+	width: 740px;
+	height: 210px;
+	position: absolute;
+	top: 0px;
+    left: 0px;
+    background-color: #fff;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+    background: url('../images/photo2.png')  no-repeat;
+  background-position: center;
+  background-size: 103% ;
+  z-index: 5;
+}
+#photo-cover{
+	width: 740px;
+	height: 210px;
+	position: absolute;
+	top: 0px;
+    left: 0px;
+    background-color: rgba(83,149,177,0.7);
+}
+#how{
+	width: 240px;
+	height: 60px;
+position: absolute;
+top: 80px;
+left: 240px;
+background-color:#0f2949;
+opacity: 0.8;
+}
+#how-to{
+	width: 240px;
+	height: 60px;
+position: absolute;
+top: 80px;
+left: 245px;
+font-size: 40px;
+color: #fff;
+}
+#what{
+	width: 500px;
+	height: 60px;
+position: absolute;
+top: 80px;
+left: 110px;
+background-color:#0f2949;
+opacity: 0.8;
+}
+#prepare-what{
+	width: 500px;
+	height: 60px;
+position: absolute;
+top: 80px;
+left: 115px;
+font-size: 40px;
+color: #fff;
+}
+#after-photo2{
+	width: 740px;
+	height: 260px;
+	position: absolute;
+	top: 208px;
+	left: 0px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+}
+#after-photo{
+	width: 600px;
+	height:180px;
+	position: absolute;
+	top: 200px;
+	left: 75px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.6)
+}
+
+#con1-text1{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 220px;
+	height: 130px;
+	
+}
+
+#con1-text1>span{
+	display: block;
+	margin-top:10px;
+	font-size: 16px;
+}
+#con1-text2>span{
+	display: block;
+	margin-top:10px;
+	font-size: 16px;
+}
+#con1-text2{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width:280px;
+	height: 150px;
+	
+}
+ /*新生攻略到校路线模块下文字内容 来校方式*/
+#by-bus{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 250px;
+	height: 220px;
+	
+}
+#by-train{
+	position: absolute;
+	top: 20px;
+	left:285px;
+	width: 210px;	
+	height:110px;
+
+
+}
+#by-plane{
+	position: absolute;
+	top:150px;
+	left:285px;	
+	width: 210px;
+	height:90px;
+	
+}
+#driving{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 205px;
+	height: 130px;
+	
+}
+
+.by>span{
+	display: block;
+	margin-top: 10px;
+	font-size: 16px;
+}
+#by-bus>span{
+	font-size: 15px;
+}
+
+#content1{height:751px;
+	
+}
+#content2{height: 608px;
+	
+	position: relative;
+	
+	}
+
+
+.content{
+	width: 70%;
+
+    min-width: 750px;
+
+}
+
+#row1_four_radish{
+	height: 145px;
+	width: 573px;
+	margin: 0px auto;
+	margin-top: 50px;
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+
+}
+#row2_five_radish{
+	height: 145px;
+	width: 719px;		
+	margin: 0px auto;
+	margin-top: 60px;
+	display: flex;
+	flex-direction:row;
+	align-items:center;
+}
+
+/*组织介绍框文本定位框以及下面的三角形的样式*/
+.jieshao{
+	width: 200px;
+	height: 150px;
+	
+	background:#fff;
+	position: absolute;
+	
+	box-shadow: 2px 2px 6px rgba(0,0,0,0.2)
+	
+
+}
+
+.jieshao_delta{
+	display: none;
+	width:40px;
+	height: 40px;
+	position: absolute;
+	
+	
+ background: url('../images/delta.gif')  no-repeat;
+  background-position: bottom center;
+  background-size: 100% ;
+
+
+
+
+}
+
+/*组织介绍框文本定位框以及下面的三角形的定位*/
+#jieshao1{
+	position: absolute;
+	top: 10px;
+	left:215px;
+	display: none;	
+	
+}
+#jieshao_delta1{
+	top: 148px;
+	left: 240px;
+
+}
+
+
+#jieshao2{
+	position: absolute;
+	top: 10px;
+	left: 355px;
+	display: none;	
+	
+}
+#jieshao_delta2{
+	top: 148px;
+	left:380px;
+
+}
+#jieshao3{
+	position: absolute;
+	top: 10px;
+	left:495px;	
+	display: none;
+}
+#jieshao_delta3{
+	top: 148px;
+	left:520px;
+
+}
+#jieshao4{
+	position: absolute;
+	top: 10px;
+	left: 635px;
+	display: none;
+}	
+#jieshao_delta4{
+	top: 148px;
+	left:660px;
+
+}	
+#jieshao5{
+	position: absolute;
+	top: 210px;
+	left: 140px;	
+	display: none;
+	
+}
+#jieshao_delta5{
+
+	top: 348px;
+	left:165px;
+
+}
+#jieshao6{
+	position: absolute;
+	top: 210px;
+	left:285px;
+	display: none;	
+	
+}
+#jieshao_delta6{
+	top: 348px;
+	left: 310px;
+
+}
+#jieshao7{
+	position: absolute;
+	top: 210px;
+	left: 425px;
+	display: none;		
+	
+}
+#jieshao_delta7{
+	top: 348px;
+	left: 450px;
+
+}
+#jieshao8{
+	position: absolute;
+	top: 210px;
+	left:565px;
+	display: none;		
+	
+}
+#jieshao_delta8{
+	top: 348px;
+	left: 590px;
+
+}
+#jieshao9{
+	position: absolute;
+	top: 210px;
+	left:715px;
+	display: none;		
+	
+}
+#jieshao_delta9{
+	top: 348px;
+	left:740px;
+
+}
+
+
+
+
+
+
+
+
+/*圆以及圆下面的组织的名字的样式以及定位*/
+
+.radish_and_h2{
+	height: 155px;
+	flex:1 1 auto;
+
+}
+.radish{
+	width: 120px;
+	height: 120px;
+	border-radius: 120px;
+	margin: 0 auto;
+	background-color: #e5e5e5;
+	cursor: pointer;
+}
+.radish_and_h2>h2{
+	font-size: normal;
+	color: #707070;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+
+ /*第三模块*/
+
+
+
+ /*第三模块定位框*/
+#content3{
+	
+	height: 655px;
+	
+	position: relative;
+}
+/*星空详细介绍内容*/
+#content3>p{
+	font-size: 24px;
+	margin-left:20px;
+	margin-top:50px; 
+	color: #707070;
+	}
+
+#content3>a{
+	display: block;
+	border-radius: 15px;
+	width:140px;
+	height: 37px;
+	background-color:#3192d6;
+	font-size: 24px;
+	line-height: 35px;
+	text-align: center;
+	color: #fff;
+	margin-top:40px;
+	margin-left: 20px;
+}
+#content3>span
+{   font-weight: bold;
+	font-size: 24px;
+	position: absolute;
+	left: 190px;
+	top: 425px;
+	color: #f18193;
+
+
+}
+#content3>img{
+width:280px;
+height:300px;
+position: absolute;
+right: -40px;
+top:110px;
+}
